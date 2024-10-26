@@ -1,0 +1,61 @@
+.gradiantColor {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.profile-image{
+    width:100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%em;
+  -moz-border-radius: 50%em;
+  -ms-border-radius: 50%em;
+  -o-border-radius: 50%em;
+}
+
+
+.iphone {
+  margin-bottom: -15px;
+  -webkit-animation: vibrate 2s ease-in-out infinite alternate;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+}
+  100% {
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+}
+
+
+.iphone-container{
+  overflow-y: hidden;
+}
