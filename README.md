@@ -2,7 +2,7 @@
 
 Welcome to the **TinDog** website repository! This project is created to demonstrate Bootstrap and responsive web design.
 
-![TinDog Screenshot](link-to-screenshot) <!-- Replace with an actual screenshot link if available -->
+![TinDog Screenshot](https://github.com/Abdo-fullstack-projects-2023/tindog_bootstrap_example/webimg.png) <!-- Replace with an actual screenshot link if available -->
 
 ## 🚀 Live Demo
 
